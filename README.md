@@ -11,6 +11,7 @@ python3 Find_Circles_And_Say.py
 ```
 examples:
 
-<img src="https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_1.png" width="200"  alt="test_1"/>
-<img src="https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_2.png" width="200"  alt="test_2"/>
+<img src="https://github.com/DenryDu/DenryDu.github.io/tree/blob/image_upload/find_circles_test_1.png" width="200"  alt="test_1"/>
+<img src="https://github.com/DenryDu/DenryDu.github.io/tree/blob/image_upload/find_circles_test_2.png" width="200"  alt="test_2"/>
+***
 Denry Du 2019
