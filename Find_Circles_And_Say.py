@@ -4,7 +4,7 @@ import numpy as np
 
 from espeakng import ESpeakNG
 
-#chushihua yuyinduixiang
+#init espeak object
 import pyttsx3
 engine = pyttsx3.init()
 
