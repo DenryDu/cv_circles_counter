@@ -10,6 +10,7 @@ python3 coin_counter_test_to_find_good_parameter.py
 python3 Find_Circles_And_Say.py
 ```
 examples:
-![alt tag](https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_1.png)<br><br>
-![alt tag](https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_2.png)<br><br>
-Rhys Dunn 2015
+
+<img src="https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_1.png" width="200"  alt="test_1"/>
+<img src="https://github.com/DenryDu/DenryDu.github.io/tree/master/image_upload/find_circles_test_2.png" width="200"  alt="test_2"/>
+Denry Du 2019
