@@ -6,10 +6,10 @@
 import numpy as np
 import cv2
 
-
+COINS_PATH = "./coins"
 for i in range(10):
     # load image
-    img_path = "coins"+str(i)+".jpg"
+    img_path = COINS_PATH+"/coins"+str(i)+".jpg"
     img = cv2.imread(img_path)
 
 
