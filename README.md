@@ -1,10 +1,25 @@
 ## Coin and circle counters for python using OpenCV
 ##### 1.Find coins in an image statically
 ```mermaid
-graph TB;
-    start[start] --> load[load image];
+graph TD
+    start[start] --> load[load image]
+    subgraph gray
+    load -- Convert to gray scale --> gray[Gray Image]
+    end
+    gray -- Apply median blur --> mblur[Image Blurred]
+    subgraph blur
+    mblur -- Apply gaussian blur --> gblur[Image Blurred]
+    end
+    subgraph edge detection
+    gblur -- Canny Edge Detection --> cEdge[Edges]
+    end
+    subgraph contours draw
+    cEdge -- Find contours --> contours[Contours]
+    end
+    contours -- Draw and Count the contours --> stop[stop]
+    
 ```
-load image -> convert to grey scale -> apply median blur -> apply gaussian blur -> apply canny edge detection -> find contours -> draw contours -> count the number of contours -> thus, count the number of coins.<br><br>
+<!--load image -> convert to grey scale -> apply median blur -> apply gaussian blur -> apply canny edge detection -> find contours -> draw contours -> count the number of contours -> thus, count the number of coins.<br><br>-->
 ```
 python3 coin_counter_test_to_find_good_parameter.py
 ```
