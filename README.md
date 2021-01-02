@@ -13,7 +13,7 @@ A program that detects the number of coins or circles in an image
 - [License](#license)
 
 ## Background
-When studying CV basic operations, I want to use these skills to detect some thing, and that's why I made this proj
+When studying CV basic operations, I want to use these skills to detect some thing, and that's why I made this proj                 
 在学习计算机视觉基础操作的时候，我想利用这些技巧去检测一些东西，受到一些项目启发，做了这个项目来对图片或者实时视频中的硬币或圆形物体进行检测
 ## Install
 Just **Download** and **Unzip** the repo!
