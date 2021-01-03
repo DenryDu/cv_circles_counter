@@ -23,7 +23,7 @@ Just **Download** and **Unzip** the repo!
 python3 coin_counter_test_to_find_good_parameter.py
 ```
 ```mermaid
-graph TD
+graph LR
     start[start] --> load[load image]
     subgraph gray
     load -- Convert to gray scale --> gray[Gray Image]
@@ -35,7 +35,7 @@ graph TD
     subgraph edge detection
     gblur -- Canny Edge Detection --> cEdge[Edges]
     end
-    subgraph contours draw
+    subgraph draw contours
     cEdge -- Find contours --> contours[Contours]
     end
     contours -- Draw and Count the contours --> stop[stop]
