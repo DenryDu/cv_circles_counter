@@ -26,9 +26,9 @@ python3 coin_counter_test_to_find_good_parameter.py
 graph LR
     start[start] --> load[load image]
     subgraph gray
-    load -- Convert to gray scale --> gray[Gray Image]
+    load -- Convert to gray scale --> grayscale[Gray Image]
     end
-    gray -- Apply median blur --> mblur[Image Blurred]
+    grayscale -- Apply median blur --> mblur[Image Blurred]
     subgraph blur
     mblur -- Apply gaussian blur --> gblur[Image Blurred]
     end
