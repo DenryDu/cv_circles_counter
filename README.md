@@ -54,6 +54,7 @@ examples:
 <img src="./find_circles_ex/find_circles_test_2.png" width="600"  alt="test_2"/>
 
 ## Related Efforts
+[scikit image segmentation](https://scikit-image.org/docs/stable/auto_examples/applications/plot_coins_segmentation.html)
 ## Maintainers
 [@DenryDu](https://github.com/DenryDu)
 ## Contributors
